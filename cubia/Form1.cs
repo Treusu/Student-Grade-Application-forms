@@ -24,11 +24,11 @@ namespace cubia
 
             if (total >= 75)
             {
-                Result.Text = ("The student passed.\nThe General average of " + textBox1.Text + " is " + total + ".");
+                Result.Text = ("The student passed.\nThe general average of " + textBox1.Text + " is " + total + ".");
             }
             else
             {
-                Result.Text = ("The student failed.\nThe General average of " + textBox1.Text + " is " + total + ".");
+                Result.Text = ("The student failed.\nThe general average of " + textBox1.Text + " is " + total + ".");
             }
         }
     }
